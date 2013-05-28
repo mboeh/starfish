@@ -16,7 +16,7 @@
 package gfx
 
 import (
-	"encoding/json"
+	"fmt"
 	b "github.com/mboeh/starfish/backend"
 )
 
@@ -26,8 +26,7 @@ type fontKey struct {
 }
 
 func (me *fontKey) String() string {
-	str, _ := json.Marshal(me)
-	return string(str)
+	return fmt.Sprintf("%s:%d", me.path, me.size)
 }
 
 var fonts = newFlyweight(

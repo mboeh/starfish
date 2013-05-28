@@ -17,8 +17,8 @@ package gfx
 
 import (
 	"encoding/json"
-	b "github.com/gtalent/starfish/backend"
-	"github.com/gtalent/starfish/util"
+	b "github.com/mboeh/starfish/backend"
+	"github.com/mboeh/starfish/util"
 )
 
 type imageLabel struct {

@@ -15,7 +15,7 @@
 */
 package input
 
-import "github.com/gtalent/starfish/util"
+import "github.com/mboeh/starfish/util"
 
 type MouseEvent struct {
 	util.Point

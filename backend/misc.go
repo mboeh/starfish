@@ -15,7 +15,7 @@
 */
 package backend
 
-import "github.com/gtalent/starfish/util"
+import "github.com/mboeh/starfish/util"
 
 var QuitFunc = func() {}
 var KeyUp = func(e KeyEvent) {}

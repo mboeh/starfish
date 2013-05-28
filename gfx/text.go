@@ -17,7 +17,7 @@ package gfx
 
 import (
 	"encoding/json"
-	b "github.com/gtalent/starfish/backend"
+	b "github.com/mboeh/starfish/backend"
 )
 
 type fontKey struct {

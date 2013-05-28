@@ -15,7 +15,7 @@
 */
 package gfx
 
-import b "github.com/gtalent/starfish/backend"
+import b "github.com/mboeh/starfish/backend"
 
 //An RGB color representation.
 type Color struct {
